@@ -1498,61 +1498,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "OTT",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "OTT"
-            ],
-            "id": "1e795ff3-f571-4ff5-99bd-6f6e0fbf2054",
-            "source": {
-              "cell": "2a810eb0-56a4-4f0c-af83-2c86d0160abe",
-              "port": "87e893a0-155b-4182-a6a4-c50458553986"
-            },
-            "target": {
-              "cell": "dec51efb-bf55-4b9c-a294-0e45f4e823f6",
-              "port": "04b2f652-5af0-4632-8a4c-6f2f6be51f6e"
-            },
-            "vertices": [
-              {
-                "x": 290,
-                "y": 180
-              },
-              {
-                "x": 160,
-                "y": 240
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "2b. Telefonanbieter",
               "description": "",
               "outOfScope": false,
@@ -1906,6 +1851,57 @@
               {
                 "x": 559.5,
                 "y": -60
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "OTT",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "OTT"
+            ],
+            "id": "1e795ff3-f571-4ff5-99bd-6f6e0fbf2054",
+            "source": {
+              "cell": "2a810eb0-56a4-4f0c-af83-2c86d0160abe",
+              "port": "87e893a0-155b-4182-a6a4-c50458553986"
+            },
+            "target": {
+              "cell": "a1d5bbe6-465f-43bb-bd96-7ce687db37aa",
+              "port": "08fd071e-45dc-40f1-8432-58d5c5ad68ae"
+            },
+            "vertices": [
+              {
+                "x": 345,
+                "y": 180
               }
             ]
           },
