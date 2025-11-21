@@ -394,7 +394,7 @@
             "id": "94f68ce7-aa88-45a4-ba41-c0b62d6a959c",
             "data": {
               "name": "2-Faktor-Authe\nntifizierungsdi\nenst",
-              "description": "",
+              "description": "Für Kryptographie wird Standard-Software eingesetzt",
               "type": "tm.Process",
               "isTrustBoundary": false,
               "outOfScope": false,
