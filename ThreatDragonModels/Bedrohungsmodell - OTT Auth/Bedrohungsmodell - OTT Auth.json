@@ -276,7 +276,7 @@
               "hasOpenThreats": false,
               "isWebApplication": null,
               "threatFrequency": {
-                "spoofing": 3,
+                "spoofing": 4,
                 "tampering": 0,
                 "repudiation": 0,
                 "informationDisclosure": 0,
@@ -285,6 +285,13 @@
               },
               "handlesCardPayment": null,
               "handlesGoodsOrServices": null
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
